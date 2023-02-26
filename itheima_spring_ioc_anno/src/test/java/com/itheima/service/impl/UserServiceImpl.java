@@ -17,7 +17,7 @@ import javax.annotation.Resource;
 //<bean id="userServic" class="com.itheima.service.impl.UserServiceImpl">
 //@Component("userService")
 @Service("userService")
-@Scope("singleton")
+//@Scope("singleton")
 public class UserServiceImpl implements UserService {
     @Value("${jdbc.driver}")
     private String driver;

@@ -13,10 +13,11 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
-            <version>5.3.13</version>
+            <version>5.3.18</version>
         </dependency>
 
-        <!--注解依赖 https://mvnrepository.com/artifact/javax.annotation/javax.annotation-api -->
+
+        <!-- https://mvnrepository.com/artifact/javax.annotation/javax.annotation-api -->
         <dependency>
             <groupId>javax.annotation</groupId>
             <artifactId>javax.annotation-api</artifactId>
