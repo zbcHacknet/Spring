@@ -16,6 +16,7 @@ public class DataSourceTest {
     @Test
     //测试手动Spring数据源(加载properties配置文件)
     public void test4()throws PropertyVetoException, SQLException{
+        //xml配置开发
         ApplicationContext app = new ClassPathXmlApplicationContext("applicationContent.xml");
         DataSource dataSource = app.getBean(DataSource.class);
         Connection connection = dataSource.getConnection();
